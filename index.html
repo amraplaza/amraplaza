@@ -3,249 +3,549 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>فندق الأمراء بلازا | إقامة فاخرة في معان</title>
+<title>فندق الأمراء بلازا — إقامة فاخرة في قلب معان</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Header -->
 <header id="header">
     <div class="container header-inner">
-        <a href="#" class="logo">الأمراء بلازا</a>
+        <a href="#home" class="logo">الأمراء بلازا</a>
         <nav class="nav-menu" id="navMenu">
             <a href="#home">الرئيسية</a>
-            <a href="#about">عن الفندق</a>
+            <a href="#story">قصتنا</a>
             <a href="#rooms">الغرف</a>
             <a href="#gallery">المعرض</a>
             <a href="#services">الخدمات</a>
-            <a href="#contact">اتصل بنا</a>
+            <a href="#contact">الحجز</a>
         </nav>
-        <div class="header-actions">
-            <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">
-                <span class="icon-sun">☀️</span>
-                <span class="icon-moon">🌙</span>
-            </button>
-            <button class="menu-btn" id="menuBtn" aria-label="القائمة">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
+        <button class="menu-btn" id="menuBtn" aria-label="القائمة">
+            <span></span><span></span><span></span>
+        </button>
     </div>
 </header>
 
+<!-- Hero -->
 <section class="hero" id="home">
+    <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
     <div class="container hero-content">
-        <div class="hero-badge">فندق 4 نجوم • معان، الأردن</div>
-        <h1>إقامة <span>فاخرة</span> في قلب معان</h1>
-        <p class="hero-sub">فندق 4 نجوم • تقييم 9.5/10 • افتُتح 2025</p>
-        <p class="hero-desc">تجربة إقامة استثنائية على طريق المدورة، حيث تلتقي رمال الصحراء بأصالة الضيافة الأردنية.</p>
-        <div class="hero-btns">
-            <a href="#contact" class="btn btn-primary">احجز الآن</a>
-            <a href="#rooms" class="btn btn-outline">استكشف الغرف</a>
+        <p class="hero-location">مَعان · الأردن</p>
+        <h1 class="hero-title">إقامة <em>فاخرة</em><br>في قلب معان.</h1>
+        <p class="hero-meta">فندق 4 نجوم · تقييم 9.5/10 · افتُتح 2025</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">أرسل طلب الحجز ←</a>
+            <a href="#rooms" class="btn btn-outline">اكتشف الغرف ↓</a>
+        </div>
+        <div class="hero-info-card">
+            <p class="hero-card-label">AL OMARA PLAZA</p>
+            <h3 class="hero-card-title">إقامة تُشبهكم</h3>
+            <div class="hero-info-items">
+                <div class="hero-info-item">
+                    <span class="hero-info-icon">◈</span>
+                    <div>
+                        <p class="hero-info-title">موقع يستحق التوقف</p>
+                        <p class="hero-info-sub">مَعان، الأردن · بالقرب من البتراء</p>
+                    </div>
+                </div>
+                <div class="hero-info-item">
+                    <span class="hero-info-icon">◈</span>
+                    <div>
+                        <p class="hero-info-title">وصول بلا استعجال</p>
+                        <p class="hero-info-sub">تسجيل الوصول والمغادرة بالتنسيق مع الفندق</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#contact" class="hero-card-link">تحدث مع فريقنا ←</a>
         </div>
     </div>
-    <div class="hero-scroll">مرر للأسفل ↓</div>
+    <div class="hero-scroll">↓</div>
 </section>
 
-<section class="about" id="about">
+<!-- Story -->
+<section class="story" id="story">
     <div class="container">
-        <div class="section-head">
-            <span class="section-tag">من نحن</span>
-            <h2>عن <span>الفندق</span></h2>
-        </div>
-        <div class="about-grid">
-            <div class="about-text">
-                <p>يقع <strong>فندق الأمراء بلازا</strong> في مدينة معان على طريق المدورة، ويُعدّ من أرقى فنادق المنطقة بتصنيف <strong>4 نجوم</strong>. افتُتح حديثًا عام 2025 ليقدم تجربة إقامة عصرية تجمع بين الفخامة والراحة.</p>
-                <p>يضم الفندق <strong>32 غرفة وجناحًا</strong> مجهّزة بأحدث وسائل الراحة، مع مطعم فاخر، صالة رياضية حديثة، وخدمة استقبال على مدار الساعة، ليجعل إقامتك تجربة لا تُنسى.</p>
-                <a href="https://maps.app.goo.gl/VvAGgqLJQtmLSz8KA" target="_blank" class="map-link">
-                    <span>📍</span> عرض الموقع على خرائط جوجل
-                </a>
+        <div class="story-grid">
+            <div class="story-text">
+                <p class="section-tag">عن فندق الأمراء بلازا</p>
+                <h2 class="story-title">ليس مجرد<br><em>مكان للنوم.</em></h2>
+                <p class="story-paragraph">هو المساحة التي تلتقط فيها أنفاسك، وتعيد ترتيب يومك، وتعود منها إلى الطريق بخفة. نؤمن بأن الضيافة تُقاس بما يبقى في الذاكرة: هدوء الغرفة، صدق الترحيب، وتفصيل صغير يأتي في وقته.</p>
+                <p class="story-paragraph">من مَعان، حيث الطريق إلى البتراء يبدأ بإيقاع أهدأ، نفتح أبوابنا للمسافرين الباحثين عن إقامة واضحة، دافئة، ومحترمة للوقت.</p>
+                <div class="story-signature">
+                    <span class="signature-icon">أ</span>
+                    <div>
+                        <p class="signature-name">ضيافة أردنية</p>
+                        <p class="signature-role">بروح معاصرة</p>
+                    </div>
+                </div>
             </div>
-            <div class="about-image">
-                <img src="exterior-sign.jpg" alt="واجهة الفندق">
+            <div class="story-image">
+                <img src="lobby.jpg" alt="لوبي الفندق">
             </div>
         </div>
-        <div class="features">
-            <div class="feature-box"><div class="feature-icon">⭐</div><h4>4 نجوم</h4><p>تصنيف رسمي</p></div>
-            <div class="feature-box"><div class="feature-icon">🏆</div><h4>9.5/10</h4><p>تقييم الضيوف</p></div>
-            <div class="feature-box"><div class="feature-icon">🏛️</div><h4>36 كم</h4><p>من البتراء</p></div>
-            <div class="feature-box"><div class="feature-icon">🆕</div><h4>2025</h4><p>سنة الافتتاح</p></div>
+
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-num">4</span>
+                <span class="stat-unit">نجوم</span>
+                <span class="stat-label">تصنيف الفندق</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">9.5</span>
+                <span class="stat-unit">/10</span>
+                <span class="stat-label">تقييم الضيوف</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">36</span>
+                <span class="stat-unit">كم</span>
+                <span class="stat-label">من البتراء</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">32</span>
+                <span class="stat-label">غرفة وجناح</span>
+            </div>
         </div>
     </div>
 </section>
 
+<!-- Rooms -->
 <section class="rooms" id="rooms">
     <div class="container">
-        <div class="section-head">
-            <span class="section-tag">إقامتك</span>
-            <h2>الغرف <span>والأجنحة</span></h2>
-            <p>اختر ما يناسب إقامتك من غرفنا الفاخرة</p>
+        <div class="section-header">
+            <p class="section-tag">الغرف والأجنحة</p>
+            <h2 class="section-title">اختر المساحة<br><em>التي تشبه رحلتك.</em></h2>
+            <p class="section-desc">ستة أنواع من الغرف والأجنحة، كل واحدة مصممة لتناسب احتياج مختلف. اضغط على أي غرفة لعرض التفاصيل الكاملة والصور.</p>
         </div>
-        <div class="rooms-grid">
 
-            <div class="room-card">
-                <div class="room-gallery" id="gallery-double">
-                    <div class="gallery-container">
-                        <img src="room-twin-divider.jpg" alt="استوديو مزدوج" class="gallery-slide active">
-                        <img src="room-twin-mirror.jpg" alt="استوديو مزدوج" class="gallery-slide">
-                        <img src="room-twin-phone.jpg" alt="استوديو مزدوج" class="gallery-slide">
-                        <img src="bathroom-hair.jpg" alt="حمام الغرفة" class="gallery-slide">
-                    </div>
-                    <button class="gallery-arrow prev" aria-label="السابق">‹</button>
-                    <button class="gallery-arrow next" aria-label="التالي">›</button>
-                    <div class="gallery-dots"></div>
-                    <span class="room-tag available">متوفر</span>
-                </div>
-                <div class="room-body">
-                    <h3>استوديو مزدوج فاخر</h3>
-                    <p>سريران مريحان، تصميم عصري، تكييف، تلفزيون بشاشة مسطحة، مطبخ صغير، وحمام حديث بكامل المستلزمات.</p>
-                    <ul class="room-features">
-                        <li><span>📐</span> 45 م²</li>
-                        <li><span>🛏️</span> سريران</li>
-                        <li><span>👥</span> شخصان</li>
-                        <li><span>📺</span> تلفزيون ذكي</li>
-                        <li><span>❄️</span> تكييف</li>
-                        <li><span>📶</span> واي فاي</li>
-                    </ul>
-                    <div class="room-foot">
-                        <div class="price"><span>51$</span> <small>/ الليلة</small></div>
-                        <a href="#contact" class="btn-book">احجز الآن</a>
-                    </div>
-                </div>
-            </div>
+        <div class="rooms-list">
 
-            <div class="room-card">
-                <div class="room-gallery" id="gallery-family">
-                    <div class="gallery-container">
-                        <img src="room-king-bed.jpg" alt="استوديو عائلي" class="gallery-slide active">
-                        <img src="living-room.jpg" alt="صالة الجلوس" class="gallery-slide">
-                        <img src="tv-smart.jpg" alt="تلفزيون ذكي" class="gallery-slide">
-                        <img src="curtain-gold.jpg" alt="جلسة عائلية" class="gallery-slide">
-                        <img src="kitchen.jpg" alt="المطبخ" class="gallery-slide">
-                        <img src="bathroom.jpg" alt="الحمام" class="gallery-slide">
-                    </div>
-                    <button class="gallery-arrow prev" aria-label="السابق">‹</button>
-                    <button class="gallery-arrow next" aria-label="التالي">›</button>
-                    <div class="gallery-dots"></div>
-                    <span class="room-tag available">متوفر</span>
+            <!-- 01 - مزدوجة -->
+            <article class="room" data-room="double">
+                <div class="room-image">
+                    <span class="room-number">01</span>
+                    <span class="room-badge available">متوفر</span>
+                    <img src="room-twin-divider.jpg" alt="غرفة مزدوجة فاخرة">
                 </div>
-                <div class="room-body">
-                    <h3>استوديو عائلي 70م²</h3>
-                    <p>مساحة واسعة تتسع لـ 6 أشخاص، صالة جلوس منفصلة، غرفة نوم، مطبخ مجهّز، وتصميم فاخر للعائلات.</p>
-                    <ul class="room-features">
-                        <li><span>📐</span> 70 م²</li>
-                        <li><span>🛏️</span> 1 كبير + 4 فردي</li>
-                        <li><span>👥</span> 6 أشخاص</li>
-                        <li><span>🛋️</span> صالة جلوس</li>
-                        <li><span>🧺</span> غسالة</li>
-                        <li><span>🍳</span> مطبخ مجهّز</li>
+                <div class="room-content">
+                    <span class="room-icon">◆</span>
+                    <h3 class="room-title">غرفة مزدوجة فاخرة</h3>
+                    <p class="room-desc">مساحة أنيقة وهادئة مع سرير كبير، مثالية للأزواج ورحلات العمل.</p>
+                    <ul class="room-meta">
+                        <li>سرير كبير (King)</li>
+                        <li>مساحة 35 م²</li>
                     </ul>
-                    <div class="room-foot">
-                        <div class="price"><span>67$</span> <small>/ الليلة</small></div>
-                        <a href="#contact" class="btn-book">احجز الآن</a>
+                    <div class="room-footer">
+                        <div class="room-price">
+                            <span class="price-label">من</span>
+                            <span class="price-num">51$</span>
+                            <span class="price-per">/ الليلة</span>
+                        </div>
+                        <button class="btn-room" data-room="double">عرض التفاصيل ←</button>
                     </div>
                 </div>
-            </div>
+            </article>
+
+            <!-- 02 - بسريرين -->
+            <article class="room" data-room="twin">
+                <div class="room-image">
+                    <span class="room-number">02</span>
+                    <span class="room-badge available">متوفر</span>
+                    <img src="room-twin-mirror.jpg" alt="غرفة بسريرين فرديين">
+                </div>
+                <div class="room-content">
+                    <span class="room-icon">◆</span>
+                    <h3 class="room-title">غرفة بسريرين فرديين</h3>
+                    <p class="room-desc">خيار مثالي للأصدقاء أو الزملاء، بمساحة مريحة وتصميم عصري.</p>
+                    <ul class="room-meta">
+                        <li>سريران فرديان</li>
+                        <li>مساحة 35 م²</li>
+                    </ul>
+                    <div class="room-footer">
+                        <div class="room-price">
+                            <span class="price-label">من</span>
+                            <span class="price-num">51$</span>
+                            <span class="price-per">/ الليلة</span>
+                        </div>
+                        <button class="btn-room" data-room="twin">عرض التفاصيل ←</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 03 - عائلية -->
+            <article class="room" data-room="family">
+                <div class="room-image">
+                    <span class="room-number">03</span>
+                    <span class="room-badge available">متوفر</span>
+                    <img src="room-king-bed.jpg" alt="غرفة عائلية">
+                </div>
+                <div class="room-content">
+                    <span class="room-icon">◆</span>
+                    <h3 class="room-title">غرفة عائلية</h3>
+                    <p class="room-desc">مساحة واسعة تتسع لـ 4 أشخاص، مثالية للعائلات الصغيرة.</p>
+                    <ul class="room-meta">
+                        <li>سرير كبير + سريران فرديان</li>
+                        <li>تتسع لـ 4 أشخاص</li>
+                    </ul>
+                    <div class="room-footer">
+                        <div class="room-price">
+                            <span class="price-label">من</span>
+                            <span class="price-num">67$</span>
+                            <span class="price-per">/ الليلة</span>
+                        </div>
+                        <button class="btn-room" data-room="family">عرض التفاصيل ←</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 04 - استوديو عائلي -->
+            <article class="room" data-room="family-studio">
+                <div class="room-image">
+                    <span class="room-number">04</span>
+                    <span class="room-badge available">متوفر</span>
+                    <img src="suite-living.jpg" alt="استوديو عائلي 70م²">
+                </div>
+                <div class="room-content">
+                    <span class="room-icon">◆</span>
+                    <h3 class="room-title">استوديو عائلي 70م²</h3>
+                    <p class="room-desc">جناح واسع بصالة جلوس منفصلة، يتسع حتى 6 أشخاص.</p>
+                    <ul class="room-meta">
+                        <li>70م² · 3 غرف نوم</li>
+                        <li>يتسع لـ 6 أشخاص</li>
+                    </ul>
+                    <div class="room-footer">
+                        <div class="room-price">
+                            <span class="price-label">من</span>
+                            <span class="price-num">85$</span>
+                            <span class="price-per">/ الليلة</span>
+                        </div>
+                        <button class="btn-room" data-room="family-studio">عرض التفاصيل ←</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 05 - رباعية -->
+            <article class="room" data-room="quad">
+                <div class="room-image">
+                    <span class="room-number">05</span>
+                    <span class="room-badge unavailable">غير متوفر حاليًا</span>
+                    <img src="room-modern.jpg" alt="غرفة رباعية">
+                </div>
+                <div class="room-content">
+                    <span class="room-icon">◆</span>
+                    <h3 class="room-title">غرفة رباعية</h3>
+                    <p class="room-desc">أربعة أسرّة فردية في مساحة عصرية، مثالية للأصدقاء والعائلات.</p>
+                    <ul class="room-meta">
+                        <li>4 أسرّة فردية</li>
+                        <li>تتسع لـ 4 أشخاص</li>
+                    </ul>
+                    <div class="room-footer">
+                        <div class="room-price">
+                            <span class="price-label">—</span>
+                            <span class="price-num">—</span>
+                        </div>
+                        <button class="btn-room" data-room="quad">عرض التفاصيل ←</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 06 - جناح ملكي -->
+            <article class="room" data-room="suite">
+                <div class="room-image">
+                    <span class="room-number">06</span>
+                    <span class="room-badge available">متوفر</span>
+                    <img src="room-king.jpg" alt="جناح ملكي">
+                </div>
+                <div class="room-content">
+                    <span class="room-icon">◆</span>
+                    <h3 class="room-title">جناح ملكي</h3>
+                    <p class="room-desc">جناح فاخر بصالة جلوس، غرفة نوم مستقلة، وإطلالة رائعة.</p>
+                    <ul class="room-meta">
+                        <li>مساحة 85 م²</li>
+                        <li>غرفة نوم + صالة</li>
+                    </ul>
+                    <div class="room-footer">
+                        <div class="room-price">
+                            <span class="price-label">من</span>
+                            <span class="price-num">120$</span>
+                            <span class="price-per">/ الليلة</span>
+                        </div>
+                        <button class="btn-room" data-room="suite">عرض التفاصيل ←</button>
+                    </div>
+                </div>
+            </article>
 
         </div>
     </div>
 </section>
 
+<!-- Room Details Modal -->
+<div class="room-modal" id="roomModal">
+    <div class="room-modal-overlay" id="roomModalOverlay"></div>
+    <div class="room-modal-content">
+        <button class="room-modal-close" id="roomModalClose">×</button>
+        
+        <div class="room-modal-gallery">
+            <div class="room-gallery-container" id="roomGalleryContainer"></div>
+            <button class="room-gallery-arrow prev" id="roomGalleryPrev">‹</button>
+            <button class="room-gallery-arrow next" id="roomGalleryNext">›</button>
+            <div class="room-gallery-counter" id="roomGalleryCounter">1 / 1</div>
+        </div>
+
+        <div class="room-modal-body">
+            <div class="room-modal-header">
+                <div>
+                    <p class="room-modal-tag" id="roomModalTag">غرفة</p>
+                    <h2 class="room-modal-title" id="roomModalTitle">اسم الغرفة</h2>
+                </div>
+                <span class="room-modal-badge" id="roomModalBadge">متوفر</span>
+            </div>
+
+            <p class="room-modal-desc" id="roomModalDesc"></p>
+
+            <div class="room-modal-price">
+                <span class="price-label">تبدأ من</span>
+                <span class="room-modal-price-num" id="roomModalPrice">51$</span>
+                <span class="price-per">/ الليلة</span>
+            </div>
+
+            <div class="room-modal-section">
+                <h3 class="room-modal-section-title">المميزات</h3>
+                <ul class="room-modal-features" id="roomModalFeatures"></ul>
+            </div>
+
+            <div class="room-modal-section">
+                <h3 class="room-modal-section-title">التفاصيل</h3>
+                <div class="room-modal-specs" id="roomModalSpecs"></div>
+            </div>
+
+            <a href="#contact" class="room-modal-btn" id="roomModalBook">اطلب هذه الغرفة ←</a>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery -->
 <section class="gallery-section" id="gallery">
     <div class="container">
-        <div class="section-head">
-            <span class="section-tag">جولة مصوّرة</span>
-            <h2>معرض <span>الصور</span></h2>
-            <p>لمحة عن فندق الأمراء بلازا</p>
+        <div class="section-header">
+            <p class="section-tag">جولة مصوّرة</p>
+            <h2 class="section-title">لمحة عن<br><em>تفاصيل المكان.</em></h2>
         </div>
-        <div class="masonry-gallery">
-            <div class="gallery-photo tall"><img src="exterior-sign.jpg" alt="واجهة الفندق"><span class="photo-caption">واجهة الفندق</span></div>
-            <div class="gallery-photo"><img src="room-modern.jpg" alt="غرفة عصرية"><span class="photo-caption">غرفة عصرية</span></div>
-            <div class="gallery-photo"><img src="buffet.jpg" alt="البوفيه"><span class="photo-caption">البوفيه</span></div>
-            <div class="gallery-photo tall"><img src="restaurant-orange.jpg" alt="المطعم"><span class="photo-caption">المطعم</span></div>
-            <div class="gallery-photo"><img src="gym-1.jpg" alt="الصالة الرياضية"><span class="photo-caption">الصالة الرياضية</span></div>
-            <div class="gallery-photo"><img src="gym-2.jpg" alt="أجهزة رياضية"><span class="photo-caption">أجهزة رياضية</span></div>
-            <div class="gallery-photo"><img src="tv-smart.jpg" alt="تلفزيون ذكي"><span class="photo-caption">تلفزيون ذكي</span></div>
-            <div class="gallery-photo tall"><img src="room-wardrobe.jpg" alt="خزانة الملابس"><span class="photo-caption">خزانة الملابس</span></div>
-            <div class="gallery-photo"><img src="door-109.jpg" alt="قفل إلكتروني"><span class="photo-caption">قفل إلكتروني</span></div>
-            <div class="gallery-photo"><img src="safe-robe.jpg" alt="خزنة وروب"><span class="photo-caption">خزنة وروب</span></div>
-            <div class="gallery-photo"><img src="shower.jpg" alt="حمام حديث"><span class="photo-caption">حمام حديث</span></div>
-            <div class="gallery-photo"><img src="kitchen.jpg" alt="مطبخ وغسالة"><span class="photo-caption">مطبخ وغسالة</span></div>
-            <div class="gallery-photo"><img src="toiletries.jpg" alt="مستلزمات الحمام"><span class="photo-caption">مستلزمات فاخرة</span></div>
-            <div class="gallery-photo"><img src="living-room.jpg" alt="صالة جلوس"><span class="photo-caption">صالة الجلوس</span></div>
-            <div class="gallery-photo"><img src="lobby.jpg" alt="اللوبي"><span class="photo-caption">اللوبي</span></div>
-            <div class="gallery-photo"><img src="reception.jpg" alt="الاستقبال"><span class="photo-caption">الاستقبال</span></div>
-            <div class="gallery-photo"><img src="elevator.jpg" alt="المصعد"><span class="photo-caption">المصعد</span></div>
-            <div class="gallery-photo"><img src="room-king.jpg" alt="غرفة كينج"><span class="photo-caption">غرفة كينج</span></div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item" data-src="exterior-sign.jpg"><img src="exterior-sign.jpg" alt="واجهة الفندق"><span class="gallery-label">واجهة الفندق</span></div>
+            <div class="gallery-item" data-src="exterior.jpg"><img src="exterior.jpg" alt="الفندق ليلاً"><span class="gallery-label">الفندق ليلاً</span></div>
+            <div class="gallery-item" data-src="lobby.jpg"><img src="lobby.jpg" alt="اللوبي"><span class="gallery-label">اللوبي</span></div>
+            <div class="gallery-item" data-src="reception.jpg"><img src="reception.jpg" alt="الاستقبال"><span class="gallery-label">الاستقبال</span></div>
+            <div class="gallery-item" data-src="elevator.jpg"><img src="elevator.jpg" alt="المصعد"><span class="gallery-label">المصعد</span></div>
+            <div class="gallery-item" data-src="room-modern.jpg"><img src="room-modern.jpg" alt="غرفة عصرية"><span class="gallery-label">غرفة عصرية</span></div>
+            <div class="gallery-item" data-src="room-king.jpg"><img src="room-king.jpg" alt="غرفة كينج"><span class="gallery-label">غرفة كينج</span></div>
+            <div class="gallery-item" data-src="room-twin-mirror.jpg"><img src="room-twin-mirror.jpg" alt="غرفة بسريرين"><span class="gallery-label">غرفة بسريرين</span></div>
+            <div class="gallery-item" data-src="room-twin-phone.jpg"><img src="room-twin-phone.jpg" alt="تفاصيل الغرفة"><span class="gallery-label">تفاصيل الغرفة</span></div>
+            <div class="gallery-item" data-src="room-wardrobe.jpg"><img src="room-wardrobe.jpg" alt="خزانة الملابس"><span class="gallery-label">خزانة الملابس</span></div>
+            <div class="gallery-item" data-src="curtain-gold.jpg"><img src="curtain-gold.jpg" alt="جلسة أنيقة"><span class="gallery-label">جلسة أنيقة</span></div>
+            <div class="gallery-item" data-src="living-room.jpg"><img src="living-room.jpg" alt="صالة الجلوس"><span class="gallery-label">صالة الجلوس</span></div>
+            <div class="gallery-item" data-src="suite-corner.jpg"><img src="suite-corner.jpg" alt="جلسة عائلية"><span class="gallery-label">جلسة عائلية</span></div>
+
+            <div class="gallery-item hidden" data-src="suite-living.jpg"><img src="suite-living.jpg" alt="صالة الجناح"><span class="gallery-label">صالة الجناح</span></div>
+            <div class="gallery-item hidden" data-src="suite-tv.jpg"><img src="suite-tv.jpg" alt="جناح عائلي"><span class="gallery-label">جناح عائلي</span></div>
+            <div class="gallery-item hidden" data-src="tv-smart.jpg"><img src="tv-smart.jpg" alt="تلفزيون ذكي"><span class="gallery-label">تلفزيون ذكي</span></div>
+            <div class="gallery-item hidden" data-src="kitchen.jpg"><img src="kitchen.jpg" alt="مطبخ وغسالة"><span class="gallery-label">مطبخ وغسالة</span></div>
+            <div class="gallery-item hidden" data-src="bathroom.jpg"><img src="bathroom.jpg" alt="حمام حديث"><span class="gallery-label">حمام حديث</span></div>
+            <div class="gallery-item hidden" data-src="bathroom-hair.jpg"><img src="bathroom-hair.jpg" alt="تفاصيل الحمام"><span class="gallery-label">تفاصيل الحمام</span></div>
+            <div class="gallery-item hidden" data-src="shower.jpg"><img src="shower.jpg" alt="حمام حديث"><span class="gallery-label">حمام حديث</span></div>
+            <div class="gallery-item hidden" data-src="toiletries.jpg"><img src="toiletries.jpg" alt="مستلزمات فاخرة"><span class="gallery-label">مستلزمات فاخرة</span></div>
+            <div class="gallery-item hidden" data-src="safe-robe.jpg"><img src="safe-robe.jpg" alt="خزنة وروب"><span class="gallery-label">خزنة وروب</span></div>
+            <div class="gallery-item hidden" data-src="door-109.jpg"><img src="door-109.jpg" alt="قفل إلكتروني"><span class="gallery-label">قفل إلكتروني</span></div>
+            <div class="gallery-item hidden" data-src="restaurant.jpg"><img src="restaurant.jpg" alt="مطعم الفندق"><span class="gallery-label">مطعم الفندق</span></div>
+            <div class="gallery-item hidden" data-src="restaurant-orange.jpg"><img src="restaurant-orange.jpg" alt="المطعم"><span class="gallery-label">المطعم</span></div>
+            <div class="gallery-item hidden" data-src="buffet.jpg"><img src="buffet.jpg" alt="البوفيه"><span class="gallery-label">البوفيه</span></div>
+            <div class="gallery-item hidden" data-src="gym.jpg"><img src="gym.jpg" alt="صالة رياضية"><span class="gallery-label">صالة رياضية</span></div>
+            <div class="gallery-item hidden" data-src="gym-1.jpg"><img src="gym-1.jpg" alt="أجهزة رياضية"><span class="gallery-label">أجهزة رياضية</span></div>
+            <div class="gallery-item hidden" data-src="gym-2.jpg"><img src="gym-2.jpg" alt="صالة رياضية"><span class="gallery-label">صالة رياضية</span></div>
+            <div class="gallery-item hidden" data-src="room-king-bed.jpg"><img src="room-king-bed.jpg" alt="سرير كينج"><span class="gallery-label">سرير كينج</span></div>
+            <div class="gallery-item hidden" data-src="room-twin-divider.jpg"><img src="room-twin-divider.jpg" alt="غرفة بسريرين"><span class="gallery-label">غرفة بسريرين</span></div>
+        </div>
+
+        <div class="gallery-actions">
+            <button id="showMoreBtn" class="btn-more">عرض المزيد من الصور ←</button>
         </div>
     </div>
 </section>
 
+<!-- Services -->
 <section class="services" id="services">
     <div class="container">
-        <div class="section-head">
-            <span class="section-tag">مرافقنا</span>
-            <h2>خدماتنا <span>المميزة</span></h2>
-            <p>كل ما تحتاجه لإقامة مريحة ولا تُنسى</p>
+        <div class="section-header">
+            <p class="section-tag">تفاصيل الإقامة</p>
+            <h2 class="section-title">ما تحتاجه،<br><em>بلا ضجيج.</em></h2>
+            <p class="section-desc">صممنا خدماتنا لتكون حاضرة حين تحتاجها، وغير مرئية حين تريد أن تستمتع بوقتك.</p>
         </div>
-        <div class="services-grid">
-            <div class="service-box"><div class="service-icon">🍽️</div><h4>مطعم فاخر</h4></div>
-            <div class="service-box"><div class="service-icon">🏋️</div><h4>صالة رياضية</h4></div>
-            <div class="service-box"><div class="service-icon">🚖</div><h4>نقل من المطار</h4></div>
-            <div class="service-box"><div class="service-icon">📶</div><h4>واي فاي مجاني</h4></div>
-            <div class="service-box"><div class="service-icon">🚗</div><h4>موقف سيارات</h4></div>
-            <div class="service-box"><div class="service-icon">🛎️</div><h4>استقبال 24 ساعة</h4></div>
-            <div class="service-box"><div class="service-icon">👔</div><h4>غسيل ملابس</h4></div>
-            <div class="service-box"><div class="service-icon">❄️</div><h4>تكييف</h4></div>
+
+        <div class="services-list">
+            <div class="service-item"><span class="service-num">01</span><h3 class="service-title">مطعم</h3><p class="service-desc">نكهات ووجبات تمنح يومك بداية طيبة.</p></div>
+            <div class="service-item"><span class="service-num">02</span><h3 class="service-title">صالة رياضية</h3><p class="service-desc">حافظ على روتينك خلال إقامتك.</p></div>
+            <div class="service-item"><span class="service-num">03</span><h3 class="service-title">نقل المطار</h3><p class="service-desc">خدمة مدفوعة بالتنسيق المسبق مع الفندق.</p></div>
+            <div class="service-item"><span class="service-num">04</span><h3 class="service-title">واي فاي مجاني</h3><p class="service-desc">اتصال سريع ومتاح في أنحاء الفندق.</p></div>
+            <div class="service-item"><span class="service-num">05</span><h3 class="service-title">موقف سيارات</h3><p class="service-desc">موقف مريح وآمن لسيارتك.</p></div>
+            <div class="service-item"><span class="service-num">06</span><h3 class="service-title">استقبال 24 ساعة</h3><p class="service-desc">فريقنا جاهز لمساعدتك في أي وقت.</p></div>
+            <div class="service-item"><span class="service-num">07</span><h3 class="service-title">غسيل ملابس</h3><p class="service-desc">خدمة عملية لتبقى إقامتك أسهل.</p></div>
+            <div class="service-item"><span class="service-num">08</span><h3 class="service-title">تكييف</h3><p class="service-desc">أجواء مريحة في كل موسم.</p></div>
         </div>
     </div>
 </section>
 
+<!-- Location -->
+<section class="location" id="location">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-tag">الموقع وما حوله</p>
+            <h2 class="section-title">ابدأ من هنا،<br><em>واكتشف الباقي.</em></h2>
+            <p class="section-desc">عنواننا في مَعان، الأردن، بالقرب من البتراء.</p>
+        </div>
+
+        <div class="location-card">
+            <div class="location-main">
+                <h3 class="location-title">مَعان، المملكة الأردنية الهاشمية</h3>
+                <p class="location-sub">45M · طريق المدورة · 71110</p>
+                <a href="https://maps.app.goo.gl/VvAGgqLJQtmLSz8KA" target="_blank" class="btn-map">عرض على خرائط جوجل ←</a>
+            </div>
+
+            <div class="location-landmarks">
+                <div class="landmark"><span class="landmark-dist">1.4 كم</span><span class="landmark-name">قلعة معان</span></div>
+                <div class="landmark"><span class="landmark-dist">2.1 كم</span><span class="landmark-name">ملعب الأميرة هيا</span></div>
+                <div class="landmark"><span class="landmark-dist">36 كم</span><span class="landmark-name">البتراء</span></div>
+                <div class="landmark"><span class="landmark-dist">40 كم</span><span class="landmark-name">قلعة الشوبك</span></div>
+            </div>
+
+            <div class="location-times">
+                <div class="time-item"><span class="time-label">تسجيل الوصول</span><span class="time-value">12:00 PM</span></div>
+                <div class="time-item"><span class="time-label">تسجيل المغادرة</span><span class="time-value">12:00 PM</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
 <section class="contact" id="contact">
     <div class="container">
-        <div class="section-head">
-            <span class="section-tag">تواصل معنا</span>
-            <h2>احجز <span>إقامتك</span></h2>
-            <p>نحن هنا لخدمتك على مدار الساعة</p>
+        <div class="section-header">
+            <p class="section-tag">طلب حجز</p>
+            <h2 class="section-title">خطوتك الأولى<br><em>تبدأ برسالة.</em></h2>
         </div>
-        <div class="contact-grid">
-            <div class="contact-info">
-                <div class="info-item"><div class="info-icon">📞</div><div><h4>الهاتف</h4><a href="tel:+962776767619" dir="ltr">+962 7 7676 7619</a></div></div>
-                <div class="info-item"><div class="info-icon">📍</div><div><h4>العنوان</h4><p>45M، معان، الأردن - 71110</p></div></div>
-                <div class="info-item"><div class="info-icon">🕐</div><div><h4>الدخول / الخروج</h4><p>الدخول من 12:00 ظهرًا</p></div></div>
-                <div class="info-item"><div class="info-icon">🗺️</div><div><h4>معالم قريبة</h4><ul class="landmarks"><li>قلعة معان — 1.4 كم</li><li>ملعب الأميرة هيا — 2.1 كم</li><li>البتراء — 36 كم</li><li>قلعة الشوبك — 40 كم</li></ul></div></div>
+
+        <div class="contact-layout">
+            <div class="contact-sidebar">
+                <div class="contact-block">
+                    <p class="contact-label">نفضل المحادثة المباشرة</p>
+                    <a href="tel:+962776767619" class="contact-phone" dir="ltr">+962 7 7676 7619</a>
+                    <a href="https://wa.me/962776767619" target="_blank" class="contact-whatsapp">تواصل عبر واتساب ←</a>
+                </div>
+                <div class="contact-block">
+                    <p class="contact-label">أوقات الدخول والخروج</p>
+                    <div class="time-row"><span>الوصول</span><span>12:00 PM</span></div>
+                    <div class="time-row"><span>المغادرة</span><span>12:00 PM</span></div>
+                </div>
+                <div class="contact-block">
+                    <p class="contact-label">طلب خاص؟</p>
+                    <p class="contact-hint">اكتب ملاحظتك، وسيرد عليك فريقنا مباشرة.</p>
+                </div>
             </div>
+
             <form class="booking-form" id="bookingForm">
-                <h3>نموذج الحجز</h3>
-                <div class="form-group"><label>الاسم الكامل</label><input type="text" name="name" required placeholder="أدخل اسمك"></div>
-                <div class="form-group"><label>رقم الهاتف</label><input type="tel" name="phone" required placeholder="07XXXXXXXX" dir="ltr"></div>
-                <div class="form-group"><label>البريد الإلكتروني</label><input type="email" name="email" placeholder="example@email.com" dir="ltr"></div>
-                <div class="form-group"><label>تاريخ الوصول</label><input type="date" name="date" required></div>
-                <div class="form-group"><label>نوع الغرفة</label>
+                <p class="form-step">01 — معلومات الضيف</p>
+                <h3 class="form-title">أخبرنا عن إقامتك</h3>
+                <p class="form-note">هذا الطلب للاستفسار والتنسيق، وسيتم تأكيد التوفر والسعر معك مباشرة.</p>
+
+                <div class="form-group">
+                    <label>الاسم الكامل</label>
+                    <input type="text" name="name" required placeholder="اكتب اسمك الكامل">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>رقم الهاتف</label>
+                        <input type="tel" name="phone" required placeholder="07XXXXXXXX" dir="ltr">
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني</label>
+                        <input type="email" name="email" placeholder="example@email.com" dir="ltr">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>تاريخ الوصول</label>
+                        <input type="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label>عدد الليالي</label>
+                        <input type="number" name="nights" min="1" value="1">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>نوع الغرفة</label>
                     <select name="room">
-                        <option value="">اختر نوع الغرفة</option>
-                        <option value="double">استوديو مزدوج فاخر — 51$</option>
-                        <option value="family">استوديو عائلي 70م² — 67$</option>
+                        <option value="">اختر المساحة</option>
+                        <option value="double">غرفة مزدوجة فاخرة — من 51$</option>
+                        <option value="twin">غرفة بسريرين فرديين — من 51$</option>
+                        <option value="family">غرفة عائلية — من 67$</option>
+                        <option value="family-studio">استوديو عائلي 70م² — من 85$</option>
+                        <option value="quad">غرفة رباعية — غير متوفر حاليًا</option>
+                        <option value="suite">جناح ملكي — من 120$</option>
                     </select>
                 </div>
-                <div class="form-group"><label>ملاحظات إضافية</label><textarea name="notes" rows="3" placeholder="أي طلبات خاصة..."></textarea></div>
-                <button type="submit" class="btn btn-primary btn-full">إرسال طلب الحجز</button>
-                <p class="form-note">سيتم التواصل معك لتأكيد الحجز خلال 24 ساعة</p>
+
+                <div class="form-group">
+                    <label>ملاحظات إضافية</label>
+                    <textarea name="notes" rows="3" placeholder="أي طلبات خاصة تود إضافتها..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">إرسال طلب الحجز ←</button>
             </form>
         </div>
     </div>
 </section>
 
+<!-- Footer -->
 <footer class="footer">
-    <div class="container footer-inner">
-        <div class="footer-brand"><h3>فندق الأمراء بلازا</h3><p>إقامة فاخرة في قلب معان — حيث تلتقي الأصالة بالحداثة.</p></div>
-        <div class="footer-links"><h4>روابط سريعة</h4><a href="#home">الرئيسية</a><a href="#about">عن الفندق</a><a href="#rooms">الغرف</a><a href="#gallery">المعرض</a><a href="#contact">اتصل بنا</a></div>
-        <div class="footer-contact"><h4>تواصل معنا</h4><p dir="ltr">📞 +962 7 7676 7619</p><p>📍 45M، معان، الأردن</p></div>
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <p class="footer-logo">الأمراء بلازا</p>
+                <p class="footer-tag">إقامة فاخرة في قلب معان — حيث تلتقي الأصالة بالحداثة.</p>
+            </div>
+            <div class="footer-links">
+                <p class="footer-label">روابط</p>
+                <a href="#story">قصتنا</a>
+                <a href="#rooms">الغرف</a>
+                <a href="#gallery">المعرض</a>
+                <a href="#contact">الحجز</a>
+            </div>
+            <div class="footer-contact">
+                <p class="footer-label">تواصل</p>
+                <p dir="ltr">+962 7 7676 7619</p>
+                <p>مَعان · الأردن</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 فندق الأمراء بلازا — جميع الحقوق محفوظة</p>
+        </div>
     </div>
-    <div class="footer-bottom"><p>© 2026 فندق الأمراء بلازا — جميع الحقوق محفوظة</p></div>
 </footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">×</button>
+    <button class="lightbox-arrow prev" id="lightboxPrev">‹</button>
+    <img src="" alt="" class="lightbox-img" id="lightboxImg">
+    <button class="lightbox-arrow next" id="lightboxNext">›</button>
+    <div class="lightbox-counter" id="lightboxCounter">1 / 1</div>
+</div>
 
 <script src="script.js"></script>
 </body>
